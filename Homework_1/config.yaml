@@ -1,0 +1,10 @@
+auth_param:
+    url: "https://robot-dreams-de-api.herokuapp.com/auth"
+    headers: {'content-type': 'application/json' }
+    data: {"username": "rd_dreams", "password": "djT6LasE" }
+
+
+get_param:
+    url: "https://robot-dreams-de-api.herokuapp.com/out_of_stock"
+    headers: {'content-type': 'application/json'}
+    data: {"date": "2021-01-02"}
